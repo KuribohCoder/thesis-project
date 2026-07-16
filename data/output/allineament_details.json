@@ -1,0 +1,222 @@
+[
+    {
+        "group": "gh",
+        "sequences": {
+            "seq_A_header": "NP_032143.1 somatotropin precursor [Mus musculus]",
+            "seq_B_header": "NP_000506.2 somatotropin isoform 1 precursor [Homo sapiens]",
+            "len_A": 216,
+            "len_B": 217
+        },
+        "edit_distance_analysis": {
+            "score": 73,
+            "time_seconds": 0.010014958999818191,
+            "h_index": 214,
+            "aligned_A": "MATDSRTSWLLTVSLLCLLWPQEASAFPAMPLSSLFSNAVLRAQHLHQLAADTYKEFERAYIPEGQRYS-IQNAQAAFCFSETIPAPTGKEEAQQRTDMELLRFSLLLIQSWLGPVQFLSRIFTNSLMFGTSD-RVYEKLKDLEEGIQALMQELEDGSPRVGQILKQTYDKFDANMRSDDALLKNYGLLSCFKKDLHKAETYLRVMKCRRFVESSCAF",
+            "aligned_B": "MATGSRTSLLLAFGLLCLPWLQEGSAFPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQC-RSVEGSCGF"
+        },
+        "needleman_wunsch_analysis": {
+            "score": 226,
+            "time_seconds": 0.010545292000188056,
+            "h_index": 208,
+            "aligned_A": "MATDSRTSWLLTVSLLCLLWPQEASAFPAMPLSSLFSNAVLRAQH-LHQLAADTYKEFERAYIP-EGQRYS-IQNAQAAFCFSETIPAPTGKEEAQQRTDMELLRFSLLLIQSWLGPVQFLSR-IFTNSLMFGTSD-RVYEKLKDLEEGIQALMQELEDGSPRVGQILKQTYDKFDANMRS--DDALLKNYGLLSCFKKDLHKAETYLR-VMKCRRFVESSCAF",
+            "aligned_B": "MATGSRTSLLLAFGLLCLPWLQEGSAFPTIPLSRLFDNAMLRA-HRLHQLAFDTYQEFEEAYIPKE-QKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFL-RSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTN--SHNDDALLKNYGLLYCFRKDMDKVETFLRIV-QC-RSVEGSCGF"
+        },
+        "smith_waterman_analysis": {
+            "score": 226,
+            "time_seconds": 0.011614875000304892,
+            "h_index": 208,
+            "start_coordinate_i": 0,
+            "start_coordinate_j": 0,
+            "aligned_A": "MATDSRTSWLLTVSLLCLLWPQEASAFPAMPLSSLFSNAVLRAQH-LHQLAADTYKEFERAYIP-EGQRYS-IQNAQAAFCFSETIPAPTGKEEAQQRTDMELLRFSLLLIQSWLGPVQFLSR-IFTNSLMFGTSD-RVYEKLKDLEEGIQALMQELEDGSPRVGQILKQTYDKFDANMRS--DDALLKNYGLLSCFKKDLHKAETYLR-VMKCRRFVESSCAF",
+            "aligned_B": "MATGSRTSLLLAFGLLCLPWLQEGSAFPTIPLSRLFDNAMLRA-HRLHQLAFDTYQEFEEAYIPKE-QKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFL-RSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTN--SHNDDALLKNYGLLYCFRKDMDKVETFLRIV-QC-RSVEGSCGF"
+        },
+        "alignment_free_analysis": {
+            "k_value": 3,
+            "euclidean_distance": {
+                "score": 0.0835172411913722,
+                "time_seconds": 0.00039379199961331324
+            },
+            "d2_distance": {
+                "score": 0.7022008873936634,
+                "time_seconds": 0.0020733750002364104
+            },
+            "shannon_entropy": {
+                "score": 0.7067368295044805,
+                "time_seconds": 0.0030326249998324784
+            },
+            "average_common_substring": {
+                "score": 1.5301225352316525,
+                "time_seconds": 0.004270249999990483
+            },
+            "normalized_compression_distance": {
+                "score": 0.7837837837837838,
+                "time_seconds": 0.001211083999805851
+            }
+        }
+    },
+    {
+        "group": "insulina",
+        "sequences": {
+            "seq_A_header": "NP_000198.1 insulin preproprotein [Homo sapiens]",
+            "seq_B_header": "NP_032412.3 insulin-1 preproprotein [Mus musculus]",
+            "len_A": 110,
+            "len_B": 108
+        },
+        "edit_distance_analysis": {
+            "score": 24,
+            "time_seconds": 0.0035514999999577412,
+            "h_index": 107,
+            "aligned_A": "MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN",
+            "aligned_B": "MALLVHFLPLLALLALWEPKPTQAFVKQHLCGPHLVEALYLVCGERGFFYTPKSRREVEDPQVEQLELGGSP--GDLQTLALEVARQKRGIVDQCCTSICSLYQLENYCN"
+        },
+        "needleman_wunsch_analysis": {
+            "score": 148,
+            "time_seconds": 0.0028854170000158774,
+            "h_index": 107,
+            "aligned_A": "MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN",
+            "aligned_B": "MALLVHFLPLLALLALWEPKPTQAFVKQHLCGPHLVEALYLVCGERGFFYTPKSRREVEDPQVEQLELGGSP--GDLQTLALEVARQKRGIVDQCCTSICSLYQLENYCN"
+        },
+        "smith_waterman_analysis": {
+            "score": 148,
+            "time_seconds": 0.0030280830001174763,
+            "h_index": 107,
+            "start_coordinate_i": 0,
+            "start_coordinate_j": 0,
+            "aligned_A": "MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN",
+            "aligned_B": "MALLVHFLPLLALLALWEPKPTQAFVKQHLCGPHLVEALYLVCGERGFFYTPKSRREVEDPQVEQLELGGSP--GDLQTLALEVARQKRGIVDQCCTSICSLYQLENYCN"
+        },
+        "alignment_free_analysis": {
+            "k_value": 3,
+            "euclidean_distance": {
+                "score": 0.09437682057753151,
+                "time_seconds": 0.00016937500004132744
+            },
+            "d2_distance": {
+                "score": 0.42492012224730513,
+                "time_seconds": 0.0005730410002797726
+            },
+            "shannon_entropy": {
+                "score": 0.44734664301983784,
+                "time_seconds": 0.0007701670001551975
+            },
+            "average_common_substring": {
+                "score": 0.5460137391675342,
+                "time_seconds": 0.00122095899996566
+            },
+            "normalized_compression_distance": {
+                "score": 0.7419354838709677,
+                "time_seconds": 0.00043812500007334165
+            }
+        }
+    },
+    {
+        "group": "insulina",
+        "sequences": {
+            "seq_A_header": "NP_000198.1 insulin preproprotein [Homo sapiens]",
+            "seq_B_header": "KAO0124039.1 insulin [Sus scrofa]",
+            "len_A": 110,
+            "len_B": 108
+        },
+        "edit_distance_analysis": {
+            "score": 15,
+            "time_seconds": 0.002713833000143495,
+            "h_index": 107,
+            "aligned_A": "MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN",
+            "aligned_B": "MALWTRLLPLLALLALWAPAPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREAENPQAGAVELGGGLG-G-LQALALEGPPQKRGIVEQCCTSICSLYQLENYCN"
+        },
+        "needleman_wunsch_analysis": {
+            "score": 175,
+            "time_seconds": 0.002693541000098776,
+            "h_index": 107,
+            "aligned_A": "MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN",
+            "aligned_B": "MALWTRLLPLLALLALWAPAPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREAENPQAGAVELGGGLG-G-LQALALEGPPQKRGIVEQCCTSICSLYQLENYCN"
+        },
+        "smith_waterman_analysis": {
+            "score": 175,
+            "time_seconds": 0.002996457999870472,
+            "h_index": 107,
+            "start_coordinate_i": 0,
+            "start_coordinate_j": 0,
+            "aligned_A": "MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN",
+            "aligned_B": "MALWTRLLPLLALLALWAPAPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREAENPQAGAVELGGGLG-G-LQALALEGPPQKRGIVEQCCTSICSLYQLENYCN"
+        },
+        "alignment_free_analysis": {
+            "k_value": 3,
+            "euclidean_distance": {
+                "score": 0.08256597828310215,
+                "time_seconds": 0.00017558399986228324
+            },
+            "d2_distance": {
+                "score": 0.3196721311475411,
+                "time_seconds": 0.00048349999997299165
+            },
+            "shannon_entropy": {
+                "score": 0.32373688065247386,
+                "time_seconds": 0.0006721660001858254
+            },
+            "average_common_substring": {
+                "score": 0.32238045238083146,
+                "time_seconds": 0.001160416999937297
+            },
+            "normalized_compression_distance": {
+                "score": 0.7096774193548387,
+                "time_seconds": 0.0003917079998245754
+            }
+        }
+    },
+    {
+        "group": "insulina",
+        "sequences": {
+            "seq_A_header": "NP_032412.3 insulin-1 preproprotein [Mus musculus]",
+            "seq_B_header": "KAO0124039.1 insulin [Sus scrofa]",
+            "len_A": 108,
+            "len_B": 108
+        },
+        "edit_distance_analysis": {
+            "score": 24,
+            "time_seconds": 0.002479333999872324,
+            "h_index": 107,
+            "aligned_A": "MALLVHFLPLLALLALWEPKPTQAFVKQHLCGPHLVEALYLVCGERGFFYTPKSRREVEDPQVEQLELGGSPGDLQTLALEVARQKRGIVDQCCTSICSLYQLENYCN",
+            "aligned_B": "MALWTRLLPLLALLALWAPAPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREAENPQAGAVELGGGLGGLQALALEGPPQKRGIVEQCCTSICSLYQLENYCN"
+        },
+        "needleman_wunsch_analysis": {
+            "score": 144,
+            "time_seconds": 0.002632917000028101,
+            "h_index": 107,
+            "aligned_A": "MALLVHFLPLLALLALWEPKPTQAFVKQHLCGPHLVEALYLVCGERGFFYTPKSRREVEDPQVEQLELGGSPGDLQTLALEVARQKRGIVDQCCTSICSLYQLENYCN",
+            "aligned_B": "MALWTRLLPLLALLALWAPAPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREAENPQAGAVELGGGLGGLQALALEGPPQKRGIVEQCCTSICSLYQLENYCN"
+        },
+        "smith_waterman_analysis": {
+            "score": 144,
+            "time_seconds": 0.002971499999603111,
+            "h_index": 107,
+            "start_coordinate_i": 0,
+            "start_coordinate_j": 0,
+            "aligned_A": "MALLVHFLPLLALLALWEPKPTQAFVKQHLCGPHLVEALYLVCGERGFFYTPKSRREVEDPQVEQLELGGSPGDLQTLALEVARQKRGIVDQCCTSICSLYQLENYCN",
+            "aligned_B": "MALWTRLLPLLALLALWAPAPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREAENPQAGAVELGGGLGGLQALALEGPPQKRGIVEQCCTSICSLYQLENYCN"
+        },
+        "alignment_free_analysis": {
+            "k_value": 3,
+            "euclidean_distance": {
+                "score": 0.09527834847511388,
+                "time_seconds": 0.00016837500015753903
+            },
+            "d2_distance": {
+                "score": 0.42492012224730513,
+                "time_seconds": 0.0004938330002914881
+            },
+            "shannon_entropy": {
+                "score": 0.4480209905252295,
+                "time_seconds": 0.0007029999997030245
+            },
+            "average_common_substring": {
+                "score": 0.5499590577331878,
+                "time_seconds": 0.001122832999953971
+            },
+            "normalized_compression_distance": {
+                "score": 0.75,
+                "time_seconds": 0.0003961249999520078
+            }
+        }
+    }
+]
